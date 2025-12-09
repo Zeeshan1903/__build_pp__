@@ -138,7 +138,7 @@ void run_executable(const string &output) {
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        cerr << "Usage: ./build <project_dir> <output_name> [run]\n";
+        cerr << "Usage: ./build(<./a.out>(executable of this filesystem.cpp)) <project_dir> <output_name> [run]\n";
         cerr << "       ./build clean\n";
         return 0;
     }
